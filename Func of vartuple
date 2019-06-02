@@ -1,0 +1,12 @@
+def printinfo(var1,*vartuple):
+        print("Output is :",var1)
+            
+        for var in vartuple:
+                print(var)
+
+
+
+
+printinfo(10)
+
+printinfo(30,40,50)
